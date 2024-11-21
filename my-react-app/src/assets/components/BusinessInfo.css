@@ -1,0 +1,40 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.business-info-container {
+  height: 100vh; /* Set height to 100vh */
+  background-image: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5), /* Red with transparency */
+                    rgba(0, 0, 0, 0.5) /* Blue with transparency */
+                ),
+                url('./back1.jpeg'); 
+    border-radius: 20px;
+    margin : 20px;
+  border-radius: 20px;
+  margin: 20px; /* Light background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text */
+  padding: 20px; /* Add some padding */
+  border-radius: 20px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 56px; /* Heading size */
+  color: #ffffff; /* Dark text color */
+  margin-bottom: 50px; /* Space below heading */
+}
+
+p {
+  font-size: 20px; /* Paragraph size */
+  color: #ffffff; /* Medium grey text color */
+  margin-bottom: 15px;
+  text-shadow: .2px .2px black; /* Space below paragraphs */
+}

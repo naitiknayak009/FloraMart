@@ -1,0 +1,19 @@
+/* src/AboutUs.css */
+.about-us {
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .about-us p {
+    font-size: 1.25rem; /* Adjust font size as needed */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+  }
+  

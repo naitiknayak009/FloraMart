@@ -1,0 +1,58 @@
+/* src/HeroSection.css */
+.hero-section {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5), /* Red with transparency */
+                    rgba(0, 0, 0, 0.5) /* Blue with transparency */
+                ),
+                url('./background.jpeg'); 
+    border-radius: 20px;
+    margin : 20px
+  }
+  
+  .hero-slide {
+    height: 100%;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    opacity: 0.7;
+    margin-top: 200px; /* Adjust opacity for overlay effect */
+    margin-left: 100px;
+  }
+  
+  .hero-text {
+    
+    /* Position relative for text layering */
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem; /* Adjust font size as needed */
+    color: white;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+
+  span{
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+  }
+  p{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px white;
+
+  }
+.hero-image{
+    size: 50%;
+    height: 50%;
+  }
+  

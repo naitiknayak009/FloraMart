@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.appointment-container {
+    height: 100vh; /* Full height */
+    background-color: #f0f4f8;
+    border-radius: 20px;
+    margin: 20px; /* Light background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Dark text color */
+}
+
+.appointment-form {
+    background-color: white; /* White background for form */
+    padding: 100px; /* Padding inside form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between fields */
+}
+
+input, select, button {
+    padding: 10px; /* Padding for inputs and button */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light grey border */
+}
+
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='date'],
+input[type='time'],
+select {
+    font-size: 16px; /* Font size for inputs */
+}
+
+button {
+    background-color: #007BFF; /* Blue background for button */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-icon {
+    font-size: 50px; /* Size of check icon */
+    color: green; /* Green color for check icon */
+}
+
+h2 {
+    margin-top: 10px; /* Space above confirmation text */
+}

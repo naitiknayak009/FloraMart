@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.emergency-requirements {
+    height: 100vh;
+    background-color: white; /* White background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: black; /* Black card color */
+    color: white; /* White text color */
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Fixed width for cards */
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.card ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+}
+
+.card li {
+    margin: 5px 0; /* Space between list items */
+}

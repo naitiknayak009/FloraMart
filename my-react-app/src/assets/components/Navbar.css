@@ -1,0 +1,77 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 3px;
+    background-color: #00668c; /* Green background */
+    color: white; /* White text */
+    margin: 0;
+    /* border-radius: 20px; */
+    
+  }
+  
+ div .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 21px;
+  }
+  
+  .navbar-menu {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 15px 20px;
+    display: flex;
+    gap: 25px; /* Space between menu items */
+    background-color: #71c4ef;
+    border-radius: 10px;
+  }
+  
+  .navbar-menu li {
+    display: inline;
+  }
+  
+  .navbar-menu a {
+    color: black; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    padding: 15px ;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #00668c;
+    /* Underline on hover */
+  }
+  
+  .navbar-search {
+    display: flex;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    background-color: aliceblue;
+    color: #1d1c1c;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .navbar-search button {
+    padding: 15px 20px;
+    background-color: #fffefb;
+    color: #1d1c1c;
+    border-radius: 15px;
+    border: 1px black;
+    margin-right: 9px; 
+    transition: background-color 0.5s ease, color 0.5s ease;/* Space between input and button */
+  }
+  .navbar-search button:hover{
+    background-color: #1d1c1c;
+    color: #fffefb;
+    
+  }
+
+  
