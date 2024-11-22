@@ -1,0 +1,177 @@
+/* Categories.css */
+.categories-container {
+    padding: 20px;
+    margin-top: 80px; 
+    height: 100vh;
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px;/* Add some padding around the container */
+}
+
+.categories-heading {
+    margin-top: 40px;
+    font-size: 2rem;
+    margin-left: 40px;
+    font-weight: 700;
+    text-shadow: .8px .8px black;
+    margin-bottom: 60px; /* Space between heading and cards */
+    text-align: left;
+     /* Align heading to the left */
+}
+
+.categories-cards {
+    display: flex; /* Use flexbox to arrange cards in a row */
+    justify-content: space-between; /* Space between cards */
+}
+
+.category-card1{
+    background-color: #b7b7b7; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    width: calc(20% - 10px); /* Adjust width for five cards with some space */
+    margin-right: 10px; /* Space between cards */
+    background-image: url('seasonal-plants.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: .4px .4px white;
+}
+.category-card2{
+    background-color: #b7b7b7; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    width: calc(20% - 10px); /* Adjust width for five cards with some space */
+    margin-right: 10px; /* Space between cards */
+    background-image: url('manure.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: .4px .4px white;
+}
+.category-card3{
+    background-color: #b7b7b7; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    width: calc(20% - 10px); /* Adjust width for five cards with some space */
+    margin-right: 10px; /* Space between cards */
+    background-image: url('oxy.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: .4px .4px white;
+}
+.category-card4{
+    background-color: #b7b7b7; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    width: calc(20% - 10px); /* Adjust width for five cards with some space */
+    margin-right: 10px; /* Space between cards */
+    background-image: url('indoor.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: .4px .4px white;
+}
+.category-card5{
+    background-color: #b7b7b7; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    width: calc(20% - 10px); /* Adjust width for five cards with some space */
+    margin-right: 10px; /* Space between cards */
+    background-image: url('outdoor.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: .4px .4px white;
+}
+.category-card:last-child {
+    margin-right: 0; /* Remove margin for the last card */
+}
+
+.card-image {
+    width: 100%; /* Full width for images */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover;
+    background-repeat: no-repeat; /* Ensure image covers the entire card */
+}
+
+.card-title {
+    padding: 10px;
+    text-align: right;
+     /* Center text in card */
+}
+
+.category-card1:hover{
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.category-card2:hover{
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.category-card3:hover{
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.category-card4:hover{
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.category-card5:hover{
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+/* SearchBar.css */
+.search-bar-container {
+    margin-top: 50px;
+   align-items: center;
+   text-align: center;
+   margin-left: 250px;
+    border-radius: 20px;
+    border: none;
+    width: 70%; /* Set width to 70% */
+    align-items: center; /* Center the search bar with some margin */
+}
+
+.MuiOutlinedInput-root {
+    background-color: white; /* Set background color to white */
+    color: #333; /* Set text color to dark gray for better contrast */
+    border-radius: 200px; /* Rounded corners for the input field */
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: transparent; /* Remove default border color */
+}
+
+.MuiInputAdornment-root {
+    color: #333; /* Change search icon color to dark gray for better visibility */
+}
+.MuiOutlinedInput-root:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add blue glow effect on focus */
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+span{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #b2f8a7;
+}

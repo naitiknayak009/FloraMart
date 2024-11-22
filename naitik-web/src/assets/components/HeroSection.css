@@ -1,0 +1,123 @@
+/* HeroSection.css */
+.hero-container {
+  background-color: #b2f8a7; /* Light green background */
+  height: 90vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Center items horizontally */
+  position: relative;
+  border-bottom-right-radius:50px;
+  border-bottom-left-radius: 50px;  /* Allows for absolute positioning of elements if needed */
+}
+
+.navbar {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute; /* Keep navbar at the top */
+  top: 0; /* Position it at the very top */
+  left: 0; /* Align to the left */
+  z-index: 10; /* Ensure it stays above other elements */
+}
+
+.logo {
+  margin: 20px;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.nav-links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.nav-link {
+  margin-right: 20px; /* Space between links */
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Link color */
+}
+.linki {
+  align-items: center;
+  margin-right: 300px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.login-button,
+.signup-button,
+.shop-button ,.Register1-button
+{
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  color: #fff; /* Change text color to white for visibility */
+  cursor: pointer;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.login-button:hover,
+.signup-button:hover,
+.shop-button:hover,
+.Register1-button:hover{
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.login-button {
+  background-color: #ffffff;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 10px; /* Space between buttons */
+}
+
+.signup-button {
+  background-color: #000000; /* Blue */
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.hero-content {
+  margin-top: 300px;
+  margin-left: 100px;
+  /* Adjust margin to avoid overlap with navbar */
+}
+
+.hero-title {
+  font-size: 7rem;
+  color: black;
+  font-weight: 1000;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  color: black;
+}
+
+.shop-button {
+  padding: 15px 30px;
+  margin-top: 50px;
+  background-color: #000000;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+.Register1-button {
+  padding: 15px 30px;
+  margin-top: 50px;
+  background-color: white;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+.anima{
+  height: 200px;
+  width: 200px;
+}

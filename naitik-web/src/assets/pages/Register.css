@@ -1,0 +1,51 @@
+/* Register.css */
+.register-wrapper {
+    max-width: 400px; /* Maximum width of the form */
+    margin: 50px auto; /* Center the form */
+    padding: 20px; /* Padding around the form */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.register-wrapper h1 {
+    text-align: center; /* Center the heading */
+}
+
+.register-wrapper label {
+    display: block; /* Block display for labels */
+    margin-bottom: 15px; /* Space between labels */
+}
+
+.register-wrapper input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ccc; /* Border color */
+}
+
+.register-wrapper button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #333; /* Dark background for button */
+    color: white; /* White text color for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.register-wrapper button:hover {
+    background-color: #555; /* Darker shade on hover */
+}
+
+/* Success message styles */
+.success-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: green;
+}
+
+.success-icon {
+    margin-right: 10px;
+}

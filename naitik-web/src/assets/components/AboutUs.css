@@ -1,0 +1,27 @@
+/* AboutUs.css */
+.about-us-container {
+    padding: 40px; /* Add padding around the container */
+    background-color: #b2f8a7; /* Light background color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    max-width: 100%; /* Max width for better readability */
+    margin: 20px auto;
+    height: 400px; /* Center the container */
+}
+
+.about-us-heading {
+    font-size: 2rem; /* Heading size */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.about-us-description,
+.sustainability-description {
+    font-size: 1.2rem; /* Description size */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.sustainability-heading {
+    font-size: 1.5rem; /* Subheading size */
+    margin-top: 30px; /* Space above subheading */
+}

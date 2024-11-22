@@ -1,0 +1,48 @@
+/* Deals.css */
+.deals-container {
+    padding: 20px; /* Add some padding around the container */
+}
+
+.deals-heading {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Space between heading and cards */
+    text-align: center; /* Center the heading */
+}
+
+.deals-cards {
+    display: flex; /* Use flexbox to arrange cards in a row */
+    justify-content: space-between; /* Space between cards */
+}
+
+.deal-card {
+    background-color: #fff; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: calc(33.333% - 10px); /* Each card takes one-third of the width with some margin */
+    margin-right: 10px; /* Space between cards */
+    text-align: center; /* Center text in card */
+}
+
+.deal-card:last-child {
+    margin-right: 0; /* Remove margin for the last card */
+}
+
+.card-image {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Title size */
+    margin: 10px 0; /* Space above and below title */
+}
+
+.card-price {
+    font-size: 1.2rem; /* Price size */
+    color: #FF5722; /* Price color (orange) */
+}
+
+.card-description {
+    font-size: 1rem; /* Description size */
+    padding: 10px; /* Padding around description */
+}
