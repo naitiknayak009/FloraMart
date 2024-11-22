@@ -1,27 +1,41 @@
-/* AboutUs.css */
+/* src/pages/AboutUs.css */
+
 .about-us-container {
-    padding: 40px; /* Add padding around the container */
-    background-color: #b2f8a7; /* Light background color */
-    border-radius: 20px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    max-width: 100%; /* Max width for better readability */
-    margin: 20px auto;
-    height: 400px; /* Center the container */
+    padding: 20px;
+    background-color: #b2f8a7;
+    border-radius: 20px;
+
 }
 
 .about-us-heading {
-    font-size: 2rem; /* Heading size */
-    margin-bottom: 20px; /* Space below heading */
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.about-us-content,
+.sustainability-content {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 30px; /* Space between sections */
+}
+
+.about-us-icon,
+.sustainability-icon {
+    font-size: 2rem; /* Adjust icon size */
+    margin-right: 15px; /* Space between icon and text */
+    color: #4a90e2; /* Icon color */
 }
 
 .about-us-description,
 .sustainability-description {
-    font-size: 1.2rem; /* Description size */
-    line-height: 1.6; /* Line height for better readability */
-    margin-bottom: 20px; /* Space below paragraphs */
+    font-size: 20px;
+    line-height: 1.5; /* Improved readability */
 }
-
-.sustainability-heading {
-    font-size: 1.5rem; /* Subheading size */
-    margin-top: 30px; /* Space above subheading */
+.sustainability-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 90px;
 }

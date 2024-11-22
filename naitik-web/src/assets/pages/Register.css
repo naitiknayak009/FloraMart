@@ -1,51 +1,100 @@
-/* Register.css */
-.register-wrapper {
-    max-width: 400px; /* Maximum width of the form */
-    margin: 50px auto; /* Center the form */
-    padding: 20px; /* Padding around the form */
-    background-color: #f9f9f9; /* Light background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+/* src/pages/Register.css */
+
+.register-container {
+  display: flex;
+  height: 100vh;
 }
 
-.register-wrapper h1 {
-    text-align: center; /* Center the heading */
+.left-panel {
+  background-color: #4a90e2; /* Change this color as needed */
+  width: 60%;
 }
 
-.register-wrapper label {
-    display: block; /* Block display for labels */
-    margin-bottom: 15px; /* Space between labels */
+.right-panel {
+  background-color: #eaeaea;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.register-wrapper input {
-    width: 100%; /* Full width inputs */
-    padding: 10px; /* Padding inside inputs */
-    border-radius: 5px; /* Rounded corners for inputs */
-    border: 1px solid #ccc; /* Border color */
+.welcome-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.register-wrapper button {
-    width: 100%; /* Full width button */
-    padding: 10px; /* Padding inside button */
-    background-color: #333; /* Dark background for button */
-    color: white; /* White text color for button */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
+.register-form {
+  width: 80%; /* Adjust as needed */
 }
 
-.register-wrapper button:hover {
-    background-color: #555; /* Darker shade on hover */
+.register-form label {
+  width: 100%;
 }
 
-/* Success message styles */
+.register-form input {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition for input fields */
+}
+
+/* Input field hover effect */
+.register-form input:hover {
+  border-color: #4a90e2; /* Change border color on hover */
+  box-shadow: 0px 0px 5px rgba(74, 144, 226, 0.5); /* Add shadow on hover */
+}
+
 .success-message {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    color: green;
+  display: flex;
+  align-items: center;
+  color: green; /* Color for success message */
 }
 
 .success-icon {
-    margin-right: 10px;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.register-button {
+  margin-left: 120px;
+  margin-top: 50px;
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px; /* Match with left panel */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: gray;
+  color: black; /* Darker shade on hover */
+  transform: scale(1.05);
+}
+/* src/pages/Register.css */
+
+.success-message {
+  display: flex;
+  align-items: center;
+  color: green; /* Color for success message */
+}
+
+.success-icon {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.error-message {
+  display: flex;
+  align-items: center;
+  color: red; /* Color for error message */
+}
+
+.error-icon {
+  margin-right: 10px; /* Space between icon and text */
 }

@@ -1,8 +1,8 @@
 // src/pages/Login.jsx
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Login.css'; // Optional: Import CSS for styling
+import { FaUser, FaLock } from 'react-icons/fa'; // Import icons
+import './Login.css'; // Import CSS for styling
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -11,8 +11,6 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you would typically handle authentication logic
-        // For demonstration, we will just log the credentials
         console.log('Username:', username);
         console.log('Password:', password);
 
@@ -24,31 +22,34 @@ const Login = () => {
     };
 
     return (
-        <div className="login-wrapper">
-            <h1>LOG IN</h1>
-            <form onSubmit={handleSubmit}>
-                <label>
-                    <p>Username</p>
-                    <input 
-                        type="text" 
-                        value={username} 
-                        onChange={(e) => setUsername(e.target.value)} 
-                        required 
-                    />
-                </label>
-                <label>
-                    <p>Password</p>
-                    <input 
-                        type="password" 
-                        value={password} 
-                        onChange={(e) => setPassword(e.target.value)} 
-                        required 
-                    />
-                </label>
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
+        <div className="login-container">
+            <div className="left-panel"></div>
+            <div className="right-panel">
+                <h2 className="welcome-heading">Welcome Back</h2>
+                <form className="login-form" onSubmit={handleSubmit}>
+                    <div className="input-group">
+                        <FaUser className="icon" />
+                        <input 
+                            type="text" 
+                            placeholder="Username" 
+                            value={username} 
+                            onChange={(e) => setUsername(e.target.value)} 
+                            required 
+                        />
+                    </div>
+                    <div className="input-group">
+                        <FaLock className="icon" />
+                        <input 
+                            type="password" 
+                            placeholder="Password" 
+                            value={password} 
+                            onChange={(e) => setPassword(e.target.value)} 
+                            required 
+                        />
+                    </div>
+                    <button type="submit" className="login-button">Login</button>
+                </form>
+            </div>
         </div>
     );
 };

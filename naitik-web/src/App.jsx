@@ -6,6 +6,7 @@ import Footer from './assets/components/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from './assets/pages/Login';
 import Register from './assets/pages/Register';
+import ProductsPage from './assets/components/ProductsPage';
 import './App.css';
 
 function App() {
@@ -17,16 +18,17 @@ function App() {
       <Routes>
         
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<><HeroSection /> ,<Categories/> , <AboutUs/> </>} />
+        <Route path="/" element={<><HeroSection /> ,<Categories/> , <AboutUs/>,<Footer /> </>} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/shopnow" element={<ProductsPage/>} />
 
 
         
       </Routes>
       
       {/* This will be displayed on all pages */}
-      <Footer />
+      
     </Router>
   );
 }

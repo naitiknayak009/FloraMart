@@ -1,47 +1,70 @@
-/* Login.css */
-.login-wrapper {
-    max-width: 400px; /* Maximum width of the form */
-    margin: 50px auto; /* Center the form */
-    padding: 20px; /* Padding around the form */
-    background-color: #f9f9f9; /* Light background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    height: 600px;
+/* src/LoginPage.css */
+
+.login-container {
+  display: flex;
+  height: 90vh;
+  background-color: #ccc;
 }
 
-.login-wrapper h1 {
-    text-align: center;
-    font-weight: 600; /* Center the heading */
+.left-panel {
+  background-image: url('logi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;/* Change this color as needed */
+  width: 60%;
 }
 
-.login-wrapper label {
-    display: block; /* Block display for labels */
-    margin-bottom: 15px; /* Space between labels */
-}
-p{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.login-wrapper input {
-    width: 70%; /* Full width inputs */
-    padding: 10px; /* Padding inside inputs */
-    border-radius: 5px; /* Rounded corners for inputs */
-    border: 1px solid #ccc; /* Border color */
-    margin-bottom: 20px; /* Space between inputs */
-    margin-left: 45px;
+.right-panel {
+  background-color: #ffffff;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.login-wrapper button {
-    width: 100%; /* Full width button */
-    padding: 10px; /* Padding inside button */
-    background-color: #24cf57; /* Dark background for button */
-    color: white; /* White text color for button */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
+.welcome-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.login-wrapper button:hover {
-    background-color: #555; /* Darker shade on hover */
+.login-form {
+  width: 80%; /* Adjust as needed */
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.login-button {
+  margin-left: 120px;
+  margin-top: 50px;
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px; /* Match with left panel */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: gray;
+  color: black; /* Darker shade on hover */
+  transform: scale(1.05);
 }
